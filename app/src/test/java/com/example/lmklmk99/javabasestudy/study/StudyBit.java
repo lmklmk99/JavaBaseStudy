@@ -11,7 +11,6 @@ public class StudyBit {
 	}
 
 	private boolean checkTwoPow(int value) {
-
 		int cnt = 0;
 
 		while (value > 0) {

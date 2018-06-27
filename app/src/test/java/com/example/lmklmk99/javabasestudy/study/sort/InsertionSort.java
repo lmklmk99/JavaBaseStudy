@@ -4,7 +4,7 @@ public class InsertionSort extends Sort {
 
 	private int data[];
 
-	public int[] excuteSort(int data[]) {
+	public int[] executeSort(int data[]) {
 		this.data = (int[])data.clone();
 		return insertionSort(this.data);
 	}

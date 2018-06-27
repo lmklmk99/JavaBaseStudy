@@ -4,7 +4,7 @@ public class MargeSort extends Sort {
 
 	private int[] data;
 
-	public int[] excuteSort(int[] data) {
+	public int[] executeSort(int[] data) {
 		this.data = (int[])data.clone();
 		return margeSort(this.data, 0, data.length - 1);
 	}

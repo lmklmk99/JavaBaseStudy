@@ -4,7 +4,7 @@ public class QuickSort extends Sort {
 
 	int data[];
 
-	public int[] excuteSort(int[] data) {
+	public int[] executeSort(int[] data) {
 		this.data = (int[])data.clone();
 		return quickSort(data, 0, data.length - 1);
 	}

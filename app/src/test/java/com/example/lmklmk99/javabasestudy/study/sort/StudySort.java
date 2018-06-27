@@ -14,10 +14,10 @@ public class StudySort {
 
 		System.out.println(" data   = { " + getStringForInteger(data) + " }");
 
-		System.out.println(" bubble = { " + getStringForInteger(bubbleSort.excuteSort(data)) + " }");
-		System.out.println(" insert = { " + getStringForInteger(insertSort.excuteSort(data)) + " }");
-		System.out.println(" marge  = { " + getStringForInteger(margeSort.excuteSort(data)) + " }");
-		System.out.println(" quick  = { " + getStringForInteger(quickSort.excuteSort(data)) + " }");
+		System.out.println(" bubble = { " + getStringForInteger(bubbleSort.executeSort(data)) + " }");
+		System.out.println(" insert = { " + getStringForInteger(insertSort.executeSort(data)) + " }");
+		System.out.println(" marge  = { " + getStringForInteger(margeSort.executeSort(data)) + " }");
+		System.out.println(" quick  = { " + getStringForInteger(quickSort.executeSort(data)) + " }");
 	}
 
 	public String getStringForInteger(int data[]) {
