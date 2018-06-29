@@ -11,13 +11,11 @@ public class QuickSort extends Sort {
 
 	public int[] quickSort(int[] data, int left, int right) {
 		if (left < right) {
-
 			int pivot = data[left];
 			int leftPos = left;
 			int rightPos = right;
 
 			while (leftPos < rightPos) {
-
 				while ((data[rightPos] > pivot) && (leftPos < rightPos)) {
 					rightPos--;
 				}
